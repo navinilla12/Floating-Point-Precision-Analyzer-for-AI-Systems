@@ -1,2 +1,19 @@
-# Floating-Point-Precision-Analyzer-for-AI-Systems
-Floating-point precision analyzer for machine learning systems comparing FP32 and FP64 numerical behavior. Evaluates precision drift, stability loss, and computational accuracy trade-offs in AI workloads with visualization of numerical divergence.
+# Floating Point Precision Analyzer
+
+## Overview
+Analyzes numerical precision differences in ML computations under different floating-point formats.
+
+## Features
+- FP32 vs FP64 comparison
+- Precision loss measurement
+- Numerical drift visualization
+- ML dataset integration
+
+## Tech Stack
+Python, NumPy, Scikit-learn, Matplotlib
+
+## Run
+python main.py
+
+## Output
+Graph showing precision drift and printed error metrics
